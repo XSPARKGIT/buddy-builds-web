@@ -1,7 +1,6 @@
 
 import React from 'react';
 import CountdownTimer from '@/components/CountdownTimer';
-import NewsletterForm from '@/components/NewsletterForm';
 import SocialLinks from '@/components/SocialLinks';
 import { Construction } from 'lucide-react';
 
@@ -42,14 +41,8 @@ const Index = () => {
               <h2 className="text-xl font-semibold mb-4 text-gray-700">Launching In</h2>
               <CountdownTimer targetDate={launchDate} />
               
-              {/* Newsletter */}
-              <div className="mt-12 mb-8">
-                <h2 className="text-xl font-semibold mb-4 text-gray-700">Get Notified When We Launch</h2>
-                <NewsletterForm />
-              </div>
-              
               {/* Social Media Links */}
-              <div className="border-t border-gray-200 pt-6">
+              <div className="mt-12 pt-6 border-t border-gray-200">
                 <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-3">Connect With Us</h3>
                 <SocialLinks />
               </div>
