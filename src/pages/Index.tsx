@@ -1,3 +1,5 @@
+
+import React from 'react';
 import CountdownTimer from '@/components/CountdownTimer';
 import { Construction } from 'lucide-react';
 
@@ -14,7 +16,7 @@ const Index = () => {
             {/* Logo */}
             <div className="w-56 h-56 md:w-64 md:h-64 mb-6 animate-fade-in">
               <img 
-                src="/buddy-builds-web/lovable-uploads/69d84498-18cd-4d69-af79-074d77914fc2.png" 
+                src="/lovable-uploads/69d84498-18cd-4d69-af79-074d77914fc2.png" 
                 alt="X Spark Logo" 
                 className="w-full h-full object-contain"
               />
