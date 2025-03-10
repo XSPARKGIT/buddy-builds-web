@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <HashRouter basename="/buddy-builds-web">
+      <HashRouter>
         <RouteDebug />
         <Routes>
           <Route path="/" element={<Index />} />
