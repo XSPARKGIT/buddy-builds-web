@@ -1,7 +1,6 @@
 
 import React from 'react';
 import CountdownTimer from '@/components/CountdownTimer';
-import SocialLinks from '@/components/SocialLinks';
 import { Construction } from 'lucide-react';
 
 const Index = () => {
@@ -18,7 +17,7 @@ const Index = () => {
             <div className="w-56 h-56 md:w-64 md:h-64 mb-6 animate-fade-in">
               <img 
                 src="/lovable-uploads/69d84498-18cd-4d69-af79-074d77914fc2.png" 
-                alt="Ikwezi Logo" 
+                alt="X Spark Logo" 
                 className="w-full h-full object-contain"
               />
             </div>
@@ -40,12 +39,6 @@ const Index = () => {
               {/* Countdown Timer */}
               <h2 className="text-xl font-semibold mb-4 text-gray-700">Launching In</h2>
               <CountdownTimer targetDate={launchDate} />
-              
-              {/* Social Media Links */}
-              <div className="mt-12 pt-6 border-t border-gray-200">
-                <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-3">Connect With Us</h3>
-                <SocialLinks />
-              </div>
             </div>
           </div>
         </div>
@@ -53,7 +46,8 @@ const Index = () => {
       
       {/* Footer */}
       <footer className="mt-8 text-center text-gray-500 text-sm">
-        <p>© {new Date().getFullYear()} Ikwezi. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} X Spark. All rights reserved.</p>
+        <p className="mt-2">Designed by X Spark</p>
       </footer>
     </div>
   );
