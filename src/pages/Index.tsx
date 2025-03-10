@@ -4,9 +4,9 @@ import CountdownTimer from '@/components/CountdownTimer';
 import { Construction } from 'lucide-react';
 
 const Index = () => {
-  // Set the launch date 30 days from now
+  // Set the launch date 45 days from now instead of 30
   const launchDate = new Date();
-  launchDate.setDate(launchDate.getDate() + 30);
+  launchDate.setDate(launchDate.getDate() + 45);
 
   return (
     <div className="min-h-screen flex flex-col justify-center items-center p-6 bg-gradient-to-b from-ikwezi-light to-white">
