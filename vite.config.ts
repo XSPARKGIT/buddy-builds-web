@@ -6,7 +6,11 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   base: "/buddy-builds-web/",
-  
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    sourcemap: true
+  },
   plugins: [
     react(),
     mode === 'development' &&
