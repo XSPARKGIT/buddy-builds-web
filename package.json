@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/XSPARKGIT/buddy-builds-web",
+  "homepage": "https://xsparkgit.github.io/buddy-builds-web",
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -79,7 +79,7 @@
     "globals": "^15.9.0",
     "lovable-tagger": "^1.1.7",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.11",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
